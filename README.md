@@ -1,1 +1,1 @@
-# pyanfis
+# scikit-anfis
