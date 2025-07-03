@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scikit-anfis"
+version = "1.2.1"
+description = 'A Scikit-Learn Compatible Python library for ANFIS'
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+
+
+authors = [
+  {name = "Dongsong Zhang", email = "dsongzhang@gmail.com"},
+  {name = "Tianhua Chen", email = "T.Chen@hud.ac.uk"},
+]
+
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+]
+
+
+dependencies = [
+  "numpy >= 1.12.0",
+  "scipy >= 1.0.0",
+  "Jinja2 >= 3.1.2",
+  "threadpoolctl >= 3.2.0",
+  "torch >= 2.1.0",
+  "typing_extensions >= 4.8.0",
+  "tzdata >= 2023.3",
+  "pandas >= 2.1.1",
+  "matplotlib >= 3.8.0",
+  "mpmath >= 1.3.0",
+  "networkx >= 3.1",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/hudscomdz/scikit-anfis"
+"Source Code" = "https://github.com/hudscomdz/scikit-anfis"
